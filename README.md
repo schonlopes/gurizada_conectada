@@ -1,0 +1,1 @@
+# gurizada_conectada
