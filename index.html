@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página oficial de lançamento da música e vídeo Gurizada Conectada."
+    />
+    <meta name="theme-color" content="#071421" />
+
+    <meta property="og:title" content="Gurizada Conectada" />
+    <meta
+      property="og:description"
+      content="Uma canção sobre juventude, tradição, tecnologia e o futuro que nasce da educação."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Gurizada Conectada</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__media" aria-hidden="true"></div>
+        <div class="hero__content content-shell">
+          <p class="eyebrow">Lançamento oficial</p>
+          <h1 id="hero-title">Gurizada Conectada</h1>
+          <p class="hero__subtitle">
+            Uma canção sobre juventude, tradição, tecnologia e o futuro que
+            nasce da educação.
+          </p>
+          <p class="hero__text">
+            Entre araucárias, acordes e telas acesas, a música celebra a força
+            criativa da nossa gurizada.
+          </p>
+          <div class="hero__actions" aria-label="Ações principais">
+            <a class="button button--primary" href="#player-video">
+              Assistir ao vídeo
+            </a>
+            <button class="button button--ghost" type="button" data-share>
+              Compartilhar
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-section content-shell" id="video-oficial" aria-labelledby="video-title">
+        <p class="eyebrow">Vídeo oficial</p>
+        <h2 id="video-title">Gurizada Conectada</h2>
+        <div class="video-frame" id="player-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/_sVra83fQ3I?rel=0&modestbranding=1&playsinline=1"
+            title="Vídeo oficial Gurizada Conectada"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="video-section__note">
+          Assista, compartilhe e ajude essa mensagem a chegar mais longe.
+          <a href="https://www.youtube.com/watch?v=_sVra83fQ3I" target="_blank" rel="noopener">
+            Abrir no YouTube
+          </a>
+        </p>
+      </section>
+
+      <section class="about content-shell" aria-labelledby="about-title">
+        <div class="about__copy">
+          <p class="eyebrow">Sobre a música</p>
+          <h2 id="about-title">Sobre a música</h2>
+          <p>
+            Gurizada Conectada é uma homenagem à juventude que aprende, cria e
+            transforma. A música une cultura paranaense, tradição e tecnologia
+            para mostrar que a educação também é lugar de autoria, pertencimento
+            e futuro.
+          </p>
+        </div>
+        <ul class="keywords" aria-label="Palavras-chave">
+          <li>Cultura</li>
+          <li>Educação</li>
+          <li>Tecnologia</li>
+        </ul>
+      </section>
+
+      <section class="final-call content-shell" aria-labelledby="final-title">
+        <h2 id="final-title">Uma música para ouvir, sentir e compartilhar.</h2>
+        <button class="button button--primary" type="button" data-share>
+          Compartilhar vídeo
+        </button>
+        <p class="share-feedback" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="footer content-shell">
+      <div class="footer__text">
+        <p>SEED | Programação Paraná</p>
+      </div>
+      <div class="footer__logos" aria-label="Logos institucionais">
+        <img
+          src="media/SEED - Educação - Horizontal_OUTLINE _NEGATIVA.png"
+          alt="SEED Educação"
+        />
+        <img
+          src="media/ProgramacaoParana_logo-vertical-mono-branca.png"
+          alt="Programação Paraná"
+        />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
